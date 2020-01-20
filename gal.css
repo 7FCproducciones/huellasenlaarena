@@ -1,0 +1,75 @@
+body{ background-image: url("arena.jpg");
+background-size: cover; }
+
+.galeria{width:80%;
+margin:0vw 5vw;
+list-style:none;
+padding: 0vw;
+display:flex;}
+
+
+
+.galeria img{width:auto;
+height:100%;
+margin: auto;}
+
+.vere{ background-color: #000;
+width: 20vw;height: 15vw;
+margin: 1vw;
+border: double;
+border-radius: all;
+border-color: #fff;
+overflow: hidden;
+ }
+
+/*modal*/
+.modal{display:none;
+}
+
+.modal:target
+{display:block;
+position:fixed;
+background:rgb(0,0,0,0.8);
+top:0;
+left:0;
+width:100%;
+height:100%;}
+
+.imagen{display: flex;
+align-items:center;}
+
+/*flecha Izquierda*/
+.imagen a:nth-child(1){
+color:#fff;
+font-size:3vw;
+text-decoration:none;}
+/*flecha derecha*/
+.imagen a:nth-child(3){
+color:#fff;
+font-size:3vw;
+text-decoration:none;
+}
+/*cierre*/
+.cerrar{color:#fff;
+font-size:3vw;
+text-decoration:none;
+margin:0% 50%;}
+/*imagen */
+.imagen img{
+width:auto;
+height:100%;
+margin:auto;}
+
+/*contenedor*/
+.ver {
+  display: flex;
+  width:90vw;
+  height: 40vw;
+  margin: 1vw;
+
+}
+
+.icon-izq {font-size: 4vw;}
+.icon-der {font-size: 4vw;}
+.icon-arr {font-size: 4vw;}
+

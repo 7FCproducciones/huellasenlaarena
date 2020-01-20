@@ -1,0 +1,149 @@
+
+*{
+	margin:0vw;
+	padding:0vw;}
+
+
+body{ background-color: #fff }
+
+.video{width:75%;
+margin:0vw 2vw;
+list-style: none;
+padding: 0vw;
+display:flex;}
+
+.video li{margin:0vw;}
+
+.video img{margin:1vw 0.2vw;}
+
+
+.pri { width: 60vw; height: 35vw;}	
+.seg { width: 17vw; height: 35vw;}
+.ter { width: 17vw; height: 35vw;}	 
+
+
+
+/*menu*/
+header{
+margin-top:-1vw;
+width:100%;
+height:80%;
+position: all;
+text-align:center;}
+
+nav{
+top:-6%;
+position:relative;
+left:0%;
+right:0%;
+margin:2% auto;
+width:100%;
+max-width:80%;
+text-align:center;}
+
+nav > ul{
+list-style:none; }
+
+nav > ul {
+text-align:center;
+display:table; 
+width:100%;
+background:#000;
+position:relative;}
+
+nav>ul li{
+display:table-cell; }
+
+/*sub-menu*/
+nav > ul > li:hover > ul{
+text-align:center;
+display:block;
+height:100%;
+width:100%;}
+
+nav > ul > li > ul {
+display:block;
+text-align:center;
+position:absolute;
+background:#000;
+left:0;
+right:0;
+overflow:hidden;
+height:0;
+-webkit-transition: all .3s ease;
+-moz-transition: all .3s ease;
+-ms-transition: all .3s ease;
+-o-transition: all .3s ease;
+transition: all .3s ease;}
+
+nav > ul li a{
+color:#fff;
+display:block; 
+line-height:2vw;
+padding:1vw;
+position:relative;
+text-align:center;
+text-decoration:none;}
+
+nav > ul > li > ul > li a:hover{
+background:#5da5a2;}
+
+/*etiquetas .icon*/
+nav > ul > li > a span{
+background:#174459;
+display:block; 
+height:100%;
+width:100%;
+left:0;
+position:absolute;
+top:-100%;
+-webkit-transition: all .3s ease;
+-moz-transition: all .3s ease;
+-ms-transition: all .3s ease;
+-o-transition: all .3s ease;
+transition: all .3s ease;}
+
+nav > ul > li > a span .icon{
+display:block; 
+line-height:4vw;}
+.icon { font-size: 60%; }
+
+nav > ul > li > a:hover > span{
+top:0; 
+-webkit-transition: all .3s ease;
+-moz-transition: all .3s ease;
+-ms-transition: all .3s ease;
+-o-transition: all .3s ease;
+transition: all .3s ease;}
+
+/*colores*/
+nav ul li a .primero{
+background:#09E7FF; }
+nav ul li a .segundo{
+background:#0000FF; }
+nav ul li a .tercero{
+background:#FF147E; }
+nav ul li a .cuarto {
+background:#00E041; }
+nav ul li a .quinto {
+background:#FFBA19; }
+nav ul li a .sexto  {
+background:#FF170E; }
+
+footer{
+position:fixed;
+bottom:0;
+} 
+footer div{font-size:1.5vw;
+	margin:0 auto;
+	width:100vw;
+}
+.firma{
+text-align:center;
+color:#fff;
+;}
+
+.firmas{
+text-align:center;
+color:#0000FF;
+;}
